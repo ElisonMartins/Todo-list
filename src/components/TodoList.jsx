@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import TodoForm from './TodoForm';
 import Todo from './Todo';
 
@@ -43,7 +43,7 @@ function TodoList() {
   return (
     <>
       <div className='todo-app'>
-      <h1>What's the Plan for Today?</h1>
+      <h1>Quais seus planos para hoje?</h1>
         <TodoForm onSubmit={addTodo} />
         <Todo
           todos={todos}
